@@ -5,11 +5,13 @@ command = "npm run build"
 [build.environment]
 NODE_VERSION = "20.17.0"
 
-[[build.upload]]
-type = "static"
-dir = ".vercel/output/static"
-include = ["**/*"]
-exclude = []
+[build.upload]
+format = "service-worker"
+
+[[build.upload.rules]]
+type = "ESModule"
+dir = ".vercel/output/functions"
+main = "_worker.js"
 
 [site]
 bucket = ".vercel/output/static"

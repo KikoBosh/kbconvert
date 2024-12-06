@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import sharp from 'sharp';
 import pngToIco from 'png-to-ico';
 
+export const runtime = 'edge';
+
 export async function POST(req: NextRequest) {
   try {
     const formData = await req.formData();
