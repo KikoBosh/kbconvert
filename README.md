@@ -1,6 +1,6 @@
-# KBConvert - Image Processing Tool
+# Kiko Converter - Image Processing Tool
 
-KBConvert is a modern web application built with Next.js that provides powerful image processing capabilities. The application features a clean, responsive interface with dark/light mode support and offers two main tools:
+Kiko Converter is a modern web application built with Next.js that provides powerful image processing capabilities. The application features a clean, responsive interface with dark/light mode support and offers two main tools:
 
 ## Features
 
