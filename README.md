@@ -45,7 +45,7 @@ KBConvert is a modern web application built with Next.js that provides powerful 
 ### Prerequisites
 
 - Node.js 18.x or later
-- npm or yarn
+- npm, pnpm, yarn, bun
 
 ### Installation
 
