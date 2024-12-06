@@ -1,0 +1,16 @@
+compatibility_date = "2023-12-01"
+
+[build]
+command = "npm run build"
+[build.environment]
+NODE_VERSION = "20.17.0"
+
+[[build.upload]]
+type = "static"
+dir = ".vercel/output/static"
+include = ["**/*"]
+exclude = []
+
+[site]
+bucket = ".vercel/output/static"
+entry-point = "_worker.js" 
