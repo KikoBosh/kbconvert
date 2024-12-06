@@ -1,1 +1,0 @@
-export { default } from "@cloudflare/next-on-pages/api"; 
